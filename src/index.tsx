@@ -4,8 +4,10 @@ import App from './App';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
+import Entry from "./components/Entry";
+
 ReactDOM.render(
-  <App />,
+  <Entry title = "hello" image="no image" description="words go here" date="sometime" />,
   document.getElementById('root') as HTMLElement
 );
 registerServiceWorker();
